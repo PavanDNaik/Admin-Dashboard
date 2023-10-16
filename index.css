@@ -47,7 +47,7 @@ ul{
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
     min-height: 100vh;
     max-height: fit-content;    
 }
@@ -118,7 +118,7 @@ button{
 .main-content{
     background-color: #e0f2fe;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2,0.25fr 4fr);
     padding: 3%;
     padding-bottom: 4%;
@@ -130,7 +130,7 @@ button{
 .projects{
     grid-row: 2/5;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(150px,1fr));
     gap: 5%;
     

@@ -1,0 +1,202 @@
+@media screen and (max-width: 1500px) {
+    p.small-font{
+        font-size: 22px;
+    }
+
+    .big-font-25{
+        font-size: 23px;
+    }
+
+    .big-font-30{
+        font-size: 27px;
+    }
+    .svg-icons{
+        margin-right: 17px;
+        height: 4.5vh;
+    }
+    .svg-icons-small{
+        height: 2.8vh;
+        margin-right: 18px;
+        margin-left: 9px;
+    }
+    .sidebar{
+        font-size: 26px;
+    }
+
+    .header{
+        padding: 12px;
+    }
+    .trending-profiles{
+        width: 3vw;
+        
+    }
+    button{
+        width: 88px;
+        height: 38px;
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    p.small-font{
+        font-size: 19px;
+    }
+
+    .big-font-25{
+        font-size: 20px;
+    }
+
+    .big-font-30{
+        font-size: 22px;
+    }
+    .svg-icons{
+        margin-right: 15px;
+        height: 4.3vh;
+    }
+    .svg-icons-small{
+        height: 2.6vh;
+        margin-right: 17px;
+        margin-left: 8px;
+    }
+    .sidebar{
+        font-size: 24px;
+    }
+
+    .header{
+        padding: 10px;
+    }
+    .trending-profiles{
+        height: 4vh;
+    }
+    button{
+        width: 80px;
+        height: 36px;
+    }
+    .projects{
+        grid-template-rows: repeat(auto-fit, minmax(180px,1fr));;
+        gap: 3%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    p.small-font{
+        font-size: 17px;
+    }
+
+    .big-font-25{
+        font-size: 18px;
+    }
+
+    .big-font-30{
+        font-size: 19px;
+    }
+    .svg-icons{
+        margin-right: 15px;
+        height: 3.4vh;
+    }
+    .sidebar{
+        font-size: 22px;
+        gap: 6%;
+    }
+
+    .header{
+        padding: 9px;
+    }
+    .trending-profiles{
+        height: 3vh;
+        
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        gap: 3%;
+    }
+    button{
+        width: 75px;
+        height: 34px;
+    }
+
+    .light-font{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    p.small-font{
+        font-size: 15px;
+    }
+
+    .big-font-25{
+        font-size: 16px;
+    }
+
+    .big-font-30{
+        font-size: 17px;
+    }
+    .svg-icons{
+        margin-right: 14px;
+        height: 3.2vh;
+    }
+    .sidebar{
+        font-size: 21px;
+        gap: 5%;
+    }
+
+    .header{
+        padding: 8px;
+    }
+    .trending-profiles{
+        height: 2vh;
+        
+    }
+    .main-content{
+        grid-template-columns: 4fr 1fr;
+        gap: 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    p.small-font{
+        font-size: 11px;
+    }
+
+    .big-font-25{
+        font-size: 12px;
+    }
+    .intro{
+        font-size: 9px;
+    }
+    .big-font-30{
+        font-size: 12px;
+    }
+    .svg-icons{
+        margin-right: 12px;
+        height: 3vh;
+    }
+    .sidebar{
+        font-size: 18px;
+        gap: 4%;
+    }
+
+    .header{
+        padding: 7px;
+    }
+    .trending-profiles{
+        height: 2vh;
+        
+    }
+    .main-content{
+        grid-template-columns: 2fr 1fr;
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+        grid-template-rows: repeat(auto-fit, minmax(100px,1fr));
+        gap: 4%;
+    }
+    
+}
